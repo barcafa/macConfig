@@ -26,6 +26,7 @@ brew cask install iterm2
 brew cask install java
 brew cask install java6
 brew cask install miro-video-converter
+brew cask install mysqlworkbench
 brew cask install node
 brew cask install phantomjs
 brew cask install phpstorm
@@ -36,7 +37,6 @@ brew cask install sourcetree
 brew cask install spotify
 brew cask install sublime-text3
 brew cask install the-unarchiver
-brew cask install tomighty
 brew cask install transmission
 brew cask install vagrant
 brew cask install virtualbox
