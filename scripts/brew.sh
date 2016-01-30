@@ -18,8 +18,7 @@ show_msg 'Installing Homebrew packages'
 
 # Install GNU core utilities (those that come with OS X are outdated).
 brew install coreutils
-# sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
-################################################################################ Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
+echo export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH" >> ~/.bash_profile
 
 # Install some other useful utilities like `sponge`
 brew install moreutils
